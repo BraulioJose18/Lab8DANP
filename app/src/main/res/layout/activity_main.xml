@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity"
+	android:id="@+id/back"
+	>
+
+	<TextView
+		android:id="@+id/result"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="100dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="100dp"
+		android:text="TextView"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/result5" />
+
+	<TextView
+		android:id="@+id/result5"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="100dp"
+		android:layout_marginTop="100dp"
+		android:layout_marginEnd="100dp"
+		android:text="ACELERACIÓN TOTAL"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/result6"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="100dp"
+		android:layout_marginTop="50dp"
+		android:layout_marginEnd="100dp"
+		android:text="ACELERACIÓN LINEAL"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/result" />
+
+	<TextView
+		android:id="@+id/aceleracionX"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="100dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="100dp"
+		android:text="TextView"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/result6" />
+
+	<TextView
+		android:id="@+id/aceleracionY"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="100dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="100dp"
+		android:text="TextView"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/aceleracionX" />
+
+	<TextView
+		android:id="@+id/aceleracionZ"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="100dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="100dp"
+		android:text="TextView"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/aceleracionY" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
